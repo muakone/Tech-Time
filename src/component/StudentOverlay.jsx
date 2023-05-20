@@ -12,4 +12,4 @@ const StudentOverlay = () => {
   )
 }
 
-export default StudentOverlay
+export default StudentOverlay;
