@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import { slide as Menu } from "react-burger-menu";
 
 const Sidebar = (props) => {
   return (
-    <Menu {...props} crossClassName={ "my-class" }>
+    <Menu {...props} crossClassName={"my-class"}>
       <a className="menu-item" href="/">
         Home
       </a>
@@ -20,7 +20,7 @@ const Sidebar = (props) => {
         Contact us
       </a>
     </Menu>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
